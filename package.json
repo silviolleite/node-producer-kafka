@@ -1,0 +1,38 @@
+{
+  "name": "node-producer-kafka",
+  "version": "1.0.0",
+  "description": "Example of a producer with Kafka",
+  "presets": [
+    "@babel/env"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties"
+  ],
+  "main": "./src/app.js",
+  "scripts": {
+    "producer": "babel-node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "producer",
+    "kafka",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Silvio Leite",
+    "email": "silviolleite@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6",
+    "babel-cli": "^6.26.0"
+  }
+}
