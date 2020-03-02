@@ -1,7 +1,7 @@
-Basic Nodejs Producer to write in an Apache Kafka stream
+Producer with Nodejs
 ===================================================
 
-It is a basic Nodejs producer to write in a [Apache Kafka](https://kafka.apache.org/) stream.
+It is a basic producer to write in a [Apache Kafka](https://kafka.apache.org/) stream.
 
 # Dependencies
 
